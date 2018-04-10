@@ -126,7 +126,7 @@ def List(url,f):
 		for url,title,img in match:
 			#print(aurl)
 			print url
-			print title
+			print title.decode('cp1251')
 			print img
 			#Video(url,caption,f)
 		#	print url 
