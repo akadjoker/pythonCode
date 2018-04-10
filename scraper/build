@@ -1,0 +1,4 @@
+chmod +x player.py
+#nuitka --recurse-on --python-version=3.4 sample.py
+#nuitka --standalone --recurse-on --python-version=3.4   sample.py
+nuitka --recurse-none sample.py

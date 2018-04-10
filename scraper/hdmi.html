@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1251" />
+<title>TV XXI  &raquo; Онлайн телевидение</title>
+<meta name="description" content="Смотреть онлайн TV XXI  online TV channel" />
+<meta name="keywords" content="онлайн, acestream, TV XXI , online tv, acestream tv, tv channel" />
+	
+<meta property="og:site_name" content="Онлайн телевидение" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="TV XXI " />
+<meta property="og:url" content="http://hdmi-tv.ru/main/6763-tv-xxi.html" />
+
+<link rel="alternate" type="application/rss+xml" title="Онлайн телевидение" href="http://hdmi-tv.ru/rss.xml" />
+<script type="text/javascript" src="/includes/objects/min/index.php?charset=windows-1251&amp;g=general&amp;17"></script>
+<script type="text/javascript" src="/includes/objects/min/index.php?charset=windows-1251&f=includes/objects/masha/masha.js&7"></script>
+<link media="screen" href="/includes/objects/html5player/mediaelementplayer.css" type="text/css" rel="stylesheet" />
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="/includes/objects/min/index.php?charset=windows-1251&f=/skin/tv2/css/engine.css,/skin/tv2/css/bootstrap.min.css,/skin/tv2/css/css.css&17" />
+
+<link href="https://unpkg.com/video.js/dist/video-js.min.css" rel="stylesheet">
+<script src="https://unpkg.com/video.js@latest/dist/video.min.js"></script>
+<script src="https://unpkg.com/videojs-contrib-media-sources@latest/es5/videojs-contrib-media-sources.js"></script>
+<script src="https://unpkg.com/videojs-contrib-hls.js@latest"></script>
+
+<script src="/includes/objects/min/index.php?charset=windows-1251&f=/skin/tv2/js/bootstrap.min.js,/skin/tv2/js/lazyload.min.js,/skin/tv2/js/videojs.hotkeys.min.js&17"></script>
+
+<script
+    async="async"
+    src="//cdn-rtb.sape.ru/rtb-b/js/844/2/37844.js"
+    type="text/javascript">
+</script>
+
+</head>
+<body>
+<div id="overlay-back"></div>
+<script type="text/javascript">
+<!--
+$(function(){
+	$('a').tooltip();
+	$('.short-div div').tooltip();
+	
+
+	$(".alfavit-title").click(function() {
+		$(".alfavit-main").toggle('800');
+	});
+
+
+	$("#life_search").submit(function () {
+	var a = $("#story_fs").val();
+	if (a.length<3)
+		return false;
+	else
+	{
+		ShowLoading();
+		xdsl_do_search_sl(a);
+		HideLoading();
+		return false;
+	}
+	});
+
+    $("#story_fs").attr("autocomplete", "off");
+    $("#story_fs").blur(function() {
+        $("#searchsuggestions").fadeOut();
+		$("#overlay-back").fadeOut();
+    });
+    $("#story_fs").keyup(function() {
+        var a = $(this).val();
+        0 == a.length ? $("#searchsuggestions").toggle() : xdsl_search_value != a && 2 < a.length && (clearInterval(xdsl_search_delay), xdsl_search_delay = setInterval(function() {
+            xdsl_do_search_sl(a)
+        }, 600))
+    })
+
+});
+
+
+function xdsl_do_search_sl(a) {
+    clearInterval(xdsl_search_delay);
+    $.post(xdsl_root + "includes/jsXml/search.php", {
+        query: "" + a + ""
+    }, function(a) {
+		$("#overlay-back").fadeIn();
+        $("#searchsuggestions").html(a).fadeIn();
+		return false;
+    });
+}
+
+//-->
+</script>
+
+
+<nav class="navbar ">
+			  <div class="container-fluid">
+				<div class="navbar-header">
+				  <button type="button" class="navbar-toggle " data-toggle="collapse" data-target="#myNavbar">
+					<span class="icon-bar navbar-inverse"></span>
+					<span class="icon-bar navbar-inverse"></span>
+					<span class="icon-bar navbar-inverse"></span>                        
+				  </button>
+				  <a class="navbar-brand" href="/"><img src="/skin/tv2/images/logo.png"></a></a>
+				</div>
+				<div class="collapse navbar-collapse" id="myNavbar">
+				  <ul class="nav navbar-nav" style="padding-left: 20px;">
+					<li  data-target="#category" data-toggle="modal"><a href="#">Категории</a></li>
+					<li><a href="/faq.html">Справка</a></li>
+					<li><a href="/index.php?action_do=contacts">Контакты</a></li>
+					<li>&nbsp;&nbsp;&nbsp;</li>
+					
+					<li><div style="width:auto">
+	<form action="" name="searchform" method="post" style="position:relative; top:0px" id="life_search">
+	<div class="input-group">
+		<input type="hidden" name="do" value="search" />			<input type="hidden" name="subaction" value="search" />
+		<input type="text" id="story_fs" class="form-control input-sm"  name="story" placeholder="Поиск...">
+
+	  </div><span style="float:right"><a href="/search-stream" style="font-size:12px; font-weight:normal">глобальный поиск</a></span>
+	</form>
+	
+</div>
+</li>
+				</ul>
+					
+
+
+
+
+
+<ul class="nav navbar-nav navbar-right">
+	<li><a href="#" data-toggle="modal" data-target="#login">Вход</a> </li>
+	<li><a href="/?action_do=registration">Регистрация</a></li>
+<li>
+						<div id="google_translate_element"></div>
+						<script type="text/javascript">function googleTranslateElementInit() {new google.translate.TranslateElement({pageLanguage: 'ru', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');}
+						</script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+					</li>
+
+</ul>
+
+<div id="login" class="modal fade " role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Авторизация</h4>
+      </div>
+      <div class="modal-body">
+			<form method="post" action='/'>
+				<input name="login" type="hidden" id="login" value="submit" />
+				<div class="form-group">
+				<label for="usr">Логин</label>
+				<input type="text" class="form-control" name="login_name">
+				<label for="usr">Пароль</label>
+				<input type="password" class="form-control" name="login_password">
+				<div style="padding:5px; float:right"><input type="checkbox" name="login_not_save" id="login_not_save" value="1"> Не запоминать</div>
+				<button class="btn btn-default" type="submit" style="margin-top:10px">Войти</button>
+				</div>
+			</form>
+			<a href="http://hdmi-tv.ru/index.php?action_do=lostpassword">Забыли пароль?</a>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+					
+					
+					<div id='searchsuggestions' class="column"></div>
+				</div>
+			  </div>
+
+</nav>
+
+
+<div id="category" class="modal fade" role="dialog" >
+  <div class="modal-dialog modal-lg" style="">
+
+    <!-- Modal content-->
+    <div class="modal-content" style="width:auto;">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Категории телеканалов</h4>
+      </div>
+      <div class="modal-body category-body">
+			<a href="/main/">Общие</a>
+			<a href="/news/">Новостные</a>
+			<a href="/humor/">Развлекательные</a>
+			<a href="/children/">Детские</a>
+			<a href="/films/">Фильмы</a>
+			<a href="/sport/">Спорт</a>
+			<a href="/educational/">Познавательные</a>
+			<a href="/music/">Музыка</a>
+			<a href="/men/">Мужские</a>
+			<a href="/regional/">Региональные</a>
+			<a href="/religious/">Религиозные</a>
+			<a href="/fashion/">Мода</a>
+			<!--<a href="/ethnic/">Этнический</a>-->
+			<a href="/teleshop/">ТВ Магазин</a>
+			<a href="/amateur/">Любительский</a>
+			<a href="/xxx/">Для взрослых</a>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Закрыть</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<div class="container">
+<p style="padding:10px;"><span id="xdsl-speedbar"><span itemscope itemtype="http://data-vocabulary.org/Breadcrumb"><a href="http://hdmi-tv.ru/" itemprop="url"><span itemprop="title">AceStream телевидение</span></a></span> &raquo; <span itemscope itemtype="http://data-vocabulary.org/Breadcrumb"><a href="http://hdmi-tv.ru/main/" itemprop="url"><span itemprop="title">Общие</span></a></span> &raquo; TV XXI </span></p>
+
+
+
+
+
+<div style="padding:10px"><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- hdmi-tv_top -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-0644545758255659"
+     data-ad-slot="6670231824"
+     data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+
+
+
+
+
+	<div class="main_short">
+	<div id='xdsl-content'><dir class="row padding-reset">
+			<div class="col-sm-5" >
+				<div class="short-div" ><label>Добавлено:</label> 13-11-2017, 02:47</div>
+				<div class="short-div" >
+					
+				</div>
+			</div>
+
+		
+		
+
+	<div class="col-sm-7 ">
+		<h1>TV XXI </h1>
+	</div>
+</div>
+<dir class="row">
+	<div class="col-sm-2">
+		<div>
+			
+		</div>
+		<div style="float:left;font-size:10px;" id="stat_stream"></div>
+	</div>
+	<div class="col-sm-10">
+		<strong>Не забудьте запустить AceStream Engine перед просмотром трансляции</strong>
+			<div class="stream_cont" >
+				<video id="vConteinerVideo" poster="/files/chanels/tv-xxi.png" class="video-js vjs-default-skin vjs-16-9" controls>
+					<source  src="http://127.0.0.1:6878/ace/manifest.m3u8?id=8584dd4047f76ccc1d393c3be71b926793f2e1ed" type="application/x-mpegURL">
+				</video>
+			</div>
+			<div style="width:100%;max-width:100%;overflow:hidden">
+				<div id="SRTB_307366"></div>
+			</div>
+	</div>
+</div>
+
+
+<div id="share" class="modal fade" role="dialog"><div class="modal-dialog modal-lg" style="width:400px"><div class="modal-content"><div class="modal-header"><strong>Код плеера для вашего сайта.</strong><br> Скопируйте его и вставьте на своём сайте. Трансляция: <strong>TV XXI </strong></div><div class="modal-body share-body">&lt;iframe src='http://hdmi-tv.ru/share6763'&gt;&lt;/iframe&gt;</div>      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Закрыть</button>
+      </div></div></div></div>
+
+
+
+
+
+<script type="text/javascript">
+
+
+
+
+
+$(document).ready(function() {
+	loadPlayer('8584dd4047f76ccc1d393c3be71b926793f2e1ed');
+});
+
+
+function loadPlayer(full_story_stream)
+{
+	var player = videojs('vConteinerVideo',{
+		preload: "auto",
+		controls: true,
+		autoplay: 1});
+	player.play();
+
+	player.hotkeys({
+		volumeStep: .1,
+		seekStep: 5,
+		enableModifiersForNumbers: !1
+	});
+
+	
+}
+function reloadPlayer(streanID){
+
+		var player = videojs('vConteinerVideo');
+		player.dispose();
+
+		$(".stream_cont").append('<video id="vConteinerVideo"  width=100% class="video-js vjs-default-skin vjs-16-9" controls><source id="stream_sourse" src="http://127.0.0.1:6878/ace/manifest.m3u8?id='+streanID+'" type="application/x-mpegURL"></video>');
+
+		var player = videojs('vConteinerVideo',{
+			preload: "auto",
+			controls: true,
+			autoplay: 1});
+		player.play();
+
+		getStat(true, streanID);
+}
+
+function getStat(ter = false, id='') {
+
+    if(ter){
+		clearTimeout(timeOutVar);
+		getStat('', id);
+	}
+	else
+		timeOutVar = setTimeout(function(){getStat(false, id);}, 1000);
+
+	$.get("http://127.0.0.1:6878/ace/manifest.m3u8?format=json&id="+id, {
+        format: "json"
+    }).done(function(t) {
+        var e = JSON.parse(JSON.stringify(t)),
+            a = e.response.stat_url;
+        $.get(a, function(t) {
+            var e = JSON.parse(JSON.stringify(t)),
+                a = e.response;
+            "dl" == a.status ? a.status = "воспроизведение" : "prebuf" == a.status && (a.status = "буферезация");
+            var s = "Статус: " + a.status + "<br>Загружено: " + formatBytes(a.downloaded, 1) + "<br>Отдано: " + formatBytes(a.uploaded, 1) + "<br>Скорость загрузки: " + a.speed_down + " кБ/сек<br>Скорость отдачи: " + a.speed_up + " кБ/сек<br>Сидов: " + a.peers;
+            $("#stat_stream").html(s)
+        })
+    });
+};
+function formatBytes(t, e) {
+    if (0 == t) return "0 Bytes";
+    var a = 1024,
+        s = e || 2,
+        r = ["Bytes", "KB", "MB", "GB", "TB", "PB", "EB", "ZB", "YB"],
+        o = Math.floor(Math.log(t) / Math.log(a));
+    return parseFloat((t / Math.pow(a, o)).toFixed(s)) + " " + r[o]
+}
+
+</script></div>
+	</div>
+<br>
+<div style="max-width:100%;overflow:hidden">
+
+<center><!-- SAPE RTB DIV 728x90 -->
+<div id="SRTB_307364"></div>
+<!-- SAPE RTB END --></center>
+
+</div>
+
+</div>
+<footer class="container-fluid text-center">
+
+
+<div style="text-align:left"> 
+	<div id="position:relative:top:-20px;">
+	Copyright &copy; 2017
+		<script type="text/javascript" src="//yandex.st/share/share.js" charset="utf-8"></script>
+		<div class="yashare-auto-init" data-yashareL10n="ru" data-yashareType="none" data-yashareQuickServices="vkontakte,facebook,twitter,gplus"></div> 
+    </div><noindex>
+<span style="font-size:10px;padding:10px">Внимание! Портал не содержит никаких трансляций. Все данные располагаются в сети Интернет и на компьютерах пользователей. Любые претензии по нарушению авторских прав просим направлять броадкатерам трансляций.<br>Attention! The portal does not contain any broadcasts. All data are located on the Internet and on users' computers. Any claims for copyright infringement should be sent to broadcast broads.</span></noindex></div>
+ <!--LiveInternet counter--><script type="text/javascript"><!--
+document.write("<a href='//www.liveinternet.ru/click' "+
+"target=_blank><img src='//counter.yadro.ru/hit?t15.5;r"+
+escape(document.referrer)+((typeof(screen)=="undefined")?"":
+";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?
+screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
+";"+Math.random()+
+"' alt='' title='LiveInternet: показано число просмотров за 24"+
+" часа, посетителей за 24 часа и за сегодня' "+
+"border='0' width='0' height='0'><\/a>")
+//--></script><!--/LiveInternet-->
+<script type="text/javascript">
+<!--
+var xdsl_reply_title= 'Ответ на комментарий',xdsl_root='/',xdsl_admin= '',xdsl_login_hash = '',xdsl_group = 5,xdsl_skin = 'tv2',xdsl_wysiwyg = '1',quick_wysiwyg = '0',xdsl_act_lang = ["Да", "Нет", "Ввод", "Отмена", "Сохранить", "Удалить", "Загрузка. Пожалуйста, подождите..."],menu_short = 'Быстрое редактирование',menu_full = 'Полное редактирование',menu_profile = 'Просмотр профиля',menu_send = 'Отправить сообщение',menu_uedit = 'Админцентр',xdsl_info = 'Информация',xdsl_confirm = 'Подтверждение',xdsl_prompt = 'Ввод информации',xdsl_req_field = 'Заполните все необходимые поля',xdsl_del_agree = 'Вы действительно хотите удалить? Данное действие невозможно будет отменить',xdsl_spam_agree = 'Вы действительно хотите отметить пользователя как спамера? Это приведёт к удалению всех его комментариев',xdsl_complaint = 'Дополнительный комментарий:',xdsl_big_text = 'Выделен слишком большой участок текста.',xdsl_orfo_title = 'Укажите комментарий для администрации к найденной ошибке на странице',xdsl_p_send = 'Отправить',xdsl_p_send_ok = 'Уведомление успешно отправлено',//xdsl_save_ok = 'Изменения успешно сохранены. Обновить страницу?',
+xdsl_tree_comm = '0',xdsl_del_news = 'Удалить канал';
+var allow_xdsl_delete_news   = false;
+var xdsl_search_delay   = false;
+var xdsl_search_value   = '';
+jQuery(function($){
+FastSearch();
+});
+//-->
+</script>
+</footer>
+<!-- Yandex.Metrika counter --> <script type="text/javascript" > (function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter46416468 = new Ya.Metrika({ id:46416468, clickmap:true, trackLinks:true, accurateTrackBounce:true }); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = "https://mc.yandex.ru/metrika/watch.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks"); </script> <noscript><div><img src="https://mc.yandex.ru/watch/46416468" style="position:absolute; left:-9999px;" alt="" /></div></noscript> <!-- /Yandex.Metrika counter -->
+</body>
+</html>
